@@ -64,6 +64,7 @@ run	lib/tdlib/update_manager.rb	/^  def run(callback: nil)$/;"	f	class:TD.Update
 send_to_td_client	lib/tdlib/client.rb	/^  def send_to_td_client(query)$/;"	f	class:TD.Client
 set_log_file_path	lib/tdlib/api.rb	/^  def set_log_file_path(path)$/;"	F	class:TD.Api
 set_log_verbosity_level	lib/tdlib/api.rb	/^  def set_log_verbosity_level(level)$/;"	F	class:TD.Api
+set_tdlib_parameters	lib/tdlib/client.rb	/^  def set_tdlib_parameters(parameters:)$/;"	f	class:TD.Client
 timeout_error	lib/tdlib/client.rb	/^  def timeout_error$/;"	f	class:TD.Client
 to_s	lib/tdlib/errors.rb	/^    def to_s$/;"	f	class:TD.Error
 to_s	lib/tdlib/update_handler.rb	/^  def to_s$/;"	f	class:TD.UpdateHandler
