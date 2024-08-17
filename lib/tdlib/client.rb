@@ -25,6 +25,7 @@ class TD::Client
     @update_manager = update_manager
     @timeout = timeout
     @config = TD.config.client.to_h.merge(extra_config)
+    puts "CONFIG:: #{@config.inspect}"
     @ready_condition_mutex = Mutex.new
     @ready_condition = ConditionVariable.new
   end
