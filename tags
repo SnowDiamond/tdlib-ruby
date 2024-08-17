@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+<<	lib/tdlib/update_manager.rb	/^  alias << add_handler$/;"	a	class:TD.UpdateManager
+Api	lib/tdlib/api.rb	/^module TD::Api$/;"	m	class:TD
+Client	lib/tdlib/client.rb	/^class TD::Client$/;"	c	class:TD
+Dl	lib/tdlib/api.rb	/^  module Dl$/;"	m	class:TD.Api
+Error	lib/tdlib/errors.rb	/^  class Error < StandardError$/;"	c	class:TD	inherits:StandardError
+MissingLibPathError	lib/tdlib/errors.rb	/^  class MissingLibPathError < StandardError$/;"	c	class:TD	inherits:StandardError
+TD	lib/tdlib-ruby.rb	/^module TD$/;"	m
+TD	lib/tdlib/errors.rb	/^module TD$/;"	m
+TD	lib/tdlib/version.rb	/^module TD$/;"	m
+TIMEOUT	lib/tdlib/client.rb	/^  TIMEOUT = 20$/;"	C	class:TD.Client
+TIMEOUT	lib/tdlib/update_manager.rb	/^  TIMEOUT = 30$/;"	C	class:TD.UpdateManager
+UpdateHandler	lib/tdlib/update_handler.rb	/^class TD::UpdateHandler$/;"	c	class:TD
+UpdateManager	lib/tdlib/update_manager.rb	/^class TD::UpdateManager$/;"	c	class:TD
+VERSION	lib/tdlib/version.rb	/^  VERSION = "3.0.2"$/;"	C	class:TD
+action	lib/tdlib/update_handler.rb	/^  attr_reader :action, :disposable$/;"	f	class:TD.UpdateHandler
+add_handler	lib/tdlib/update_manager.rb	/^  def add_handler(handler)$/;"	f	class:TD.UpdateManager
+alive?	lib/tdlib/client.rb	/^  def alive?$/;"	f	class:TD.Client
+broadcast	lib/tdlib/client.rb	/^  def broadcast(query)$/;"	f	class:TD.Client
+broadcast_and_receive	lib/tdlib/client.rb	/^  alias broadcast_and_receive fetch$/;"	a	class:TD.Client
+client_create	lib/tdlib/api.rb	/^  def client_create$/;"	F	class:TD.Api
+client_destroy	lib/tdlib/api.rb	/^  def client_destroy(client)$/;"	F	class:TD.Api
+client_execute	lib/tdlib/api.rb	/^  def client_execute(client, params)$/;"	F	class:TD.Api
+client_receive	lib/tdlib/api.rb	/^  def client_receive(client, timeout)$/;"	F	class:TD.Api
+client_send	lib/tdlib/api.rb	/^  def client_send(client, params)$/;"	F	class:TD.Api
+connect	lib/tdlib/client.rb	/^  def connect$/;"	f	class:TD.Client
+dead?	lib/tdlib/client.rb	/^  def dead?$/;"	f	class:TD.Client
+dead_client_error	lib/tdlib/client.rb	/^  def dead_client_error$/;"	f	class:TD.Client
+dead_client_promise	lib/tdlib/client.rb	/^  def dead_client_promise$/;"	f	class:TD.Client
+disposable	lib/tdlib/update_handler.rb	/^  attr_reader :action, :disposable$/;"	f	class:TD.UpdateHandler
+disposable?	lib/tdlib/update_handler.rb	/^  def disposable?$/;"	f	class:TD.UpdateHandler
+dispose	lib/tdlib/client.rb	/^  def dispose$/;"	f	class:TD.Client
+execute	lib/tdlib/client.rb	/^  def execute(query)$/;"	f	class:TD.Client
+extra	lib/tdlib/update_handler.rb	/^  attr_reader :update_type, :extra$/;"	f	class:TD.UpdateHandler
+fetch	lib/tdlib/client.rb	/^  def fetch(query)$/;"	f	class:TD.Client
+find_lib	lib/tdlib/api.rb	/^    def find_lib$/;"	F	class:TD.Api.Dl
+handle_update	lib/tdlib/client.rb	/^  def handle_update(update)$/;"	f	class:TD.Client
+handle_update	lib/tdlib/update_manager.rb	/^  def handle_update(callback: nil)$/;"	f	class:TD.UpdateManager
+handlers	lib/tdlib/update_manager.rb	/^  attr_reader :handlers$/;"	f	class:TD.UpdateManager
+initialize	lib/tdlib/client.rb	/^  def initialize(td_client = TD::Api.client_create,$/;"	f	class:TD.Client
+initialize	lib/tdlib/errors.rb	/^    def initialize(message = 'Please, configure the path to tdlibjson library')$/;"	f	class:TD.MissingLibPathError
+initialize	lib/tdlib/errors.rb	/^    def initialize(td_error)$/;"	f	class:TD.Error
+initialize	lib/tdlib/update_handler.rb	/^  def initialize(update_type, extra = nil, disposable: false, &action)$/;"	f	class:TD.UpdateHandler
+initialize	lib/tdlib/update_manager.rb	/^  def initialize(td_client)$/;"	f	class:TD.UpdateManager
+inspect	lib/tdlib/errors.rb	/^    alias inspect to_s$/;"	a	class:TD.Error
+inspect	lib/tdlib/update_handler.rb	/^  alias inspect to_s$/;"	a	class:TD.UpdateHandler
+lib_extension	lib/tdlib/api.rb	/^    def lib_extension$/;"	F	class:TD.Api.Dl
+match?	lib/tdlib/update_handler.rb	/^  def match?(update, extra = nil)$/;"	f	class:TD.UpdateHandler
+match_handlers!	lib/tdlib/update_manager.rb	/^  def match_handlers!(update, extra)$/;"	f	class:TD.UpdateManager
+message	lib/tdlib/errors.rb	/^    def message$/;"	f	class:TD.Error
+method_missing	lib/tdlib/api.rb	/^    def method_missing(method_name, *args)$/;"	F	class:TD.Api.Dl
+method_missing	lib/tdlib/errors.rb	/^    def method_missing(method, *args)$/;"	f	class:TD.Error
+on	lib/tdlib/client.rb	/^  def on(update_type, &action)$/;"	f	class:TD.Client
+on_ready	lib/tdlib/client.rb	/^  def on_ready(&action)$/;"	f	class:TD.Client
+os	lib/tdlib/api.rb	/^    def os$/;"	F	class:TD.Api.Dl
+ready	lib/tdlib/client.rb	/^  def ready$/;"	f	class:TD.Client
+ready	lib/tdlib/client.rb	/^  def self.ready(*args)$/;"	F	class:TD.Client
+ready?	lib/tdlib/client.rb	/^  def ready?$/;"	f	class:TD.Client
+respond_to_missing?	lib/tdlib/errors.rb	/^    def respond_to_missing?(*args)$/;"	f	class:TD.Error
+root_path	lib/tdlib-ruby.rb	/^  def root_path$/;"	F	class:TD
+run	lib/tdlib/update_handler.rb	/^  def run(update)$/;"	f	class:TD.UpdateHandler
+run	lib/tdlib/update_manager.rb	/^  def run(callback: nil)$/;"	f	class:TD.UpdateManager
+send_to_td_client	lib/tdlib/client.rb	/^  def send_to_td_client(query)$/;"	f	class:TD.Client
+set_log_file_path	lib/tdlib/api.rb	/^  def set_log_file_path(path)$/;"	F	class:TD.Api
+set_log_verbosity_level	lib/tdlib/api.rb	/^  def set_log_verbosity_level(level)$/;"	F	class:TD.Api
+timeout_error	lib/tdlib/client.rb	/^  def timeout_error$/;"	f	class:TD.Client
+to_s	lib/tdlib/errors.rb	/^    def to_s$/;"	f	class:TD.Error
+to_s	lib/tdlib/update_handler.rb	/^  def to_s$/;"	f	class:TD.UpdateHandler
+update_type	lib/tdlib/update_handler.rb	/^  attr_reader :update_type, :extra$/;"	f	class:TD.UpdateHandler
